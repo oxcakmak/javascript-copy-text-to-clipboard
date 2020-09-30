@@ -1,3 +1,10 @@
+/*
+Author: Osman Çakmak
+Skype: oxcakmak
+Email: oxcakmak@hotmail.com
+Website: http://oxcakmak.com/
+Country: Turkey [TR]
+*/
 const copyTextToClipboard = (input, {target = document.body} = {}) => {
 	const element = document.createElement("textarea");
 	const previouslyFocusedElement = document.activeElement;
